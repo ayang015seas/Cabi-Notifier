@@ -1,7 +1,7 @@
 import express from 'express';
 import { bikeshareService } from './services/bikeshare';
 import { schedulerService } from './services/scheduler';
-import { CONFIG } from '.';
+import { CONFIG } from './config';
 
 const app = express();
 

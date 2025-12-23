@@ -1,6 +1,6 @@
 import twilio from 'twilio';
 import { StationStatus } from '../types';
-import { CONFIG } from '..';
+import { CONFIG } from '../config';
 
 class NotifierService {
   private client: twilio.Twilio;

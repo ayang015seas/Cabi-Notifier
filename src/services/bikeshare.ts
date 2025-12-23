@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { StationStatus, GBFSStationStatus, GBFSStationInformation } from '../types';
+import { CONFIG } from '../config';
 import { calculateDistance } from '../utils/distance';
-import { CONFIG } from '..';
 
 interface StationInfo {
   id: string;

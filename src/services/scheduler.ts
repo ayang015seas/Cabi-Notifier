@@ -1,7 +1,7 @@
 import cron from 'node-cron';
 import { bikeshareService } from './bikeshare';
 import { notifierService } from './notifier';
-import { CONFIG } from '..';
+import { CONFIG } from '../config';
 
 class SchedulerService {
   private task: cron.ScheduledTask | null = null;
